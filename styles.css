@@ -154,28 +154,31 @@ h2  {
     header  {
         min-height: 70vh;
     }
-    .portmain   {
+    .mainwrap   {
         display: flex;
-
+        justify-content: center;
+        flex-wrap: wrap;
         
-              
+
+    }
+ 
+    img {
+        max-width: 340px;
+        margin: 5px;
+        padding: 1%;
 
     }
     .port   {
+        max-width: 350px;
 
-  
-
-    }
-    img {
-        width: 40vw;
-
-    }
-
-
+    }   
+    h3 {
+        margin: 10px;
 
     }
-
-}
+    .portp  {
+        margin: 10px;
+    }
 
 
 
