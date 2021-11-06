@@ -7,20 +7,20 @@
 
 h1  {
     font-family: 'Comfortaa', sans-serif;
+    text-align: center;
     padding: 5%;
-    margin-top: 20px;
         
 }
 h3  {
     padding: 5%;
 
 }
-
-header  {
+.top-background {
     background-color: #F6F7F8;
-    margin: -8px;
-    min-height: 90vh;
+    margin: 0;
+    
 }
+
 p   {
     font-family: 'Lora', sans-serif;
     margin: 5vw;
@@ -29,9 +29,7 @@ p   {
 }
 .main-nav   {
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
+
     
 
 }
@@ -48,7 +46,8 @@ p   {
 }
 ul  {
     list-style: none;
-    padding: 0%;
+    padding: 0;
+    margin: 0;
 
 }
 footer  {
@@ -88,7 +87,7 @@ img {
 }
 .port   {
     text-align: center;
-    border: 3px solid red;
+
 }
 
 #contact    {
@@ -114,19 +113,24 @@ h2  {
     font-weight: 400;
 
 }
-.port   {
-    
 
-}
 @media  (min-width: 768px)  {
-    .main-nav  {
+    
+    .name   {
+        padding: 5%;
+
+    }
+    
+    .main-header, .main-nav    {
         display: flex;
+
+    }
+    .main-header {
+        flex-direction: column;
+        align-items: center;
+        height: 30vh;
     }
     .navs   {
-
-        display: flex;
-        flex-direction: row;
-        display: inline-block;
         background-color: #F6F7F8;
         border-style: none;
         padding: 1%;
@@ -136,7 +140,7 @@ h2  {
         display: flex;
         flex-direction: row-reverse;
         align-content: flex-start;
-        margin: 5vw;
+        padding: 5%;
         justify-content: center;
           
     }
@@ -151,9 +155,7 @@ h2  {
         padding: 0;
         width: 40%;
     }
-    header  {
-        min-height: 70vh;
-    }
+
     .mainwrap   {
         display: flex;
         justify-content: center;
@@ -178,6 +180,15 @@ h2  {
     }
     .portp  {
         margin: 10px;
+    }
+}
+    @media (min-width: 1024px)    {
+
+        .navs {
+            
+
+        }
+
     }
 
 
