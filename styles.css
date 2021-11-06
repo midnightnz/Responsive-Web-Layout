@@ -97,6 +97,9 @@ img {
 }
 .big    {
     display: none;
+    
+    
+
 }
 .contac {
     background-color: #F6F7F8;
@@ -108,11 +111,15 @@ h2  {
 }
 .btt    {
     font-size: 1rem;
-    text-decoration: none;
     color: black;
     font-weight: 400;
 
 }
+a   {
+    text-decoration: none;
+
+}
+
 
 @media  (min-width: 768px)  {
     
@@ -182,9 +189,18 @@ h2  {
         margin: 10px;
     }
     .big    {
-        display: inline;
+        display: inline-block;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin: 5px;
+        color: black;
+
 
     }
+    .btt    {
+        display: none;
+    }
+
 }
     @media (min-width: 1024px)    {
 
