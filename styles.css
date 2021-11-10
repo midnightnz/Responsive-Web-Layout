@@ -23,7 +23,7 @@ h3  {
 
 p   {
     font-family: 'Lora', sans-serif;
-    margin: 5vw;
+    margin: 1rem;
     text-align: center;
 
 }
@@ -121,6 +121,7 @@ a   {
 }
 
 
+
 @media  (min-width: 768px)  {
     
     .name   {
@@ -135,13 +136,13 @@ a   {
     .main-header {
         flex-direction: column;
         align-items: center;
-        height: 30vh;
+        
     }
     .navs   {
         background-color: #F6F7F8;
         border-style: none;
         padding: 1%;
-        margin: 3px 5px;
+        margin: 5px;
     }
     .profile    {
         display: flex;
@@ -167,6 +168,8 @@ a   {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        
+        
         
 
     }
@@ -200,6 +203,20 @@ a   {
     .btt    {
         display: none;
     }
+    #portfolio  {
+        padding: 2%;
+
+    }
+    .contactp   {
+        width: 55vw;
+        margin: auto;
+
+    }
+    #contact    {
+        padding: 3%;
+
+
+    }
 
 }
     @media (min-width: 1024px)    {
@@ -208,6 +225,83 @@ a   {
             flex-direction: row;
             justify-content: space-between;
             width: 90vw;
+            margin: auto;
+            max-width: 1100px;
+            height: 120px;
+            
+            
+            
+        }
+        .profile    {
+            width: 90vw;
+            margin: auto;
+            padding: 0 0 1rem 0;
+            max-width: 1100px;
+            
+        }
+        .name   {
+            padding: 0;
+
+        }
+        .navs   {
+            margin-left: 3px;
+            padding: 1px;
+        }
+        .mainwrap   {
+            
+            max-width: 90vw;
+            margin: auto;
+        }
+        img {
+            max-width: 300px;
+            margin: 5px;
+            padding: 1%;
+    
+        }
+        .port {
+            max-width: 300px;
+
+        }
+        .mainwrap   {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+             
+            
+            
+            
+    
+        }
+        .contac {
+            max-width: 1100px;
+            width: 90vw;
+            margin: auto;
+
+        }
+        #contact    {
+            padding: 3%;
+
+
+        }
+        .contactp   {
+            width: 42vw;
+            margin: auto;
+
+        }
+        main {
+            max-width: 1100px;
+            width: 90vw;
+            margin: auto;
+            background-color: white;
+        }
+        footer {
+            max-width: 1100px;
+            width: 90vw;
+            margin: auto;
+
+        }
+        body {
+            background-color: #F6F7F8;
         }
 
     }
